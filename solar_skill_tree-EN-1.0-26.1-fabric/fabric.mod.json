@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "solar_skill_tree",
+	"version": "1.0",
+	"name": "Solar Skill Tree",
+	"description": "I don't like a lot of the other skill trees(kindly). So I made my own.",
+	"authors": [
+		"Pufferfish's Template Generator"
+	],
+	"license": "Unlicense",
+	"environment": "*",
+	
+	"entrypoints": {
+		"main": []
+	},
+
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": ">=26.1",
+		"puffish_skills": "*"
+	},
+
+	"custom": {
+		"loom:injected_interfaces": {}
+	}
+
+}

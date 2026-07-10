@@ -1,0 +1,10 @@
+modLoader="lowcodefml"
+loaderVersion="[1,)"
+license="Unlicense"
+
+[[mods]]
+modId="solar_skill_tree"
+version="1.0"
+displayName="Solar Skill Tree"
+description="I don't like a lot of the other skill trees(kindly). So I made my own."
+authors="Pufferfish's Template Generator"

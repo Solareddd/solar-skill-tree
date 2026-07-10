@@ -1,0 +1,768 @@
+{
+	"health+2": {
+		"title": "+1 Heart",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "snb2nhy5xz7686dd"
+		}
+	},
+	"attack_speed+5%": {
+		"title": "+5% Attack Speed",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "golden_sword"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attack_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "f7ejavt0i6m245zb"
+		}
+	},
+	"movement_speed+5%": {
+		"title": "+5% Movement Speed",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "movement_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "q3aqtu8eyvj6e2jv"
+		}
+	},
+	"resistance+1%": {
+		"title": "+1% Resistance",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_chestplate"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:resistance",
+					"value": 0.01,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "c79z1t2hw2dex4qp"
+		}
+	},
+	"mining_speed+1%": {
+		"title": "+1% Mining Speed",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "golden_pickaxe"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:mining_speed",
+					"value": 0.01,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "fqeye9rgny0gulvq"
+		}
+	},
+	"pickaxe_speed+2%": {
+		"title": "+2% Pickaxe Speed",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_pickaxe"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:pickaxe_speed",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "9oadhwcvyz5yn708"
+		}
+	},
+	"shovel_speed+2%": {
+		"title": "+2% Shovel Speed",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_shovel"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:shovel_speed",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "hb5i7fppkhsgzv9u"
+		}
+	},
+	"axe_speed+2%": {
+		"title": "+2% Axe Speed",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_axe"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:axe_speed",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "qa8ub0u4jow02kkl"
+		}
+	},
+	"fortune+0.25": {
+		"title": "+0.25 Fortune",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:fortune",
+					"value": 0.25,
+					"operation": "additive"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "h1bk8u1tjy87mnva"
+		}
+	},
+	"fall_reduction+3%": {
+		"title": "+3% Fall Reduction",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "rabbit_foot"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:fall_reduction",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "7n8vbefgjlerm94c"
+		}
+	},
+	"experience+5%": {
+		"title": "+5% Experience",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "emerald"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:experience",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "fi5a9lmyltv39jhb"
+		}
+	},
+	"life_steal+1%": {
+		"title": "+1% Life Steal",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "absorption"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:life_steal",
+					"value": 0.01,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "0iqe4mwhhhn59nmc"
+		}
+	},
+	"mount_speed+5%": {
+		"title": "+5% Mount Speed",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "saddle"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:mount_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "7na4vz4ir4982pg5"
+		}
+	},
+	"healing+2%": {
+		"title": "+2% Healing",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "healing_potion"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:healing",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "q5b3cv9q2qe9mlw9"
+		}
+	},
+	"armor_shred+1%": {
+		"title": "+1% Armor Shred",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "mace"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:armor_shred",
+					"value": 0.01,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "2je1oc7x2riobsq2"
+		}
+	},
+	"melee_damage+2%": {
+		"title": "+2% Melee Damage",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "stone_sword"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:melee_damage",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "pt0sszusg0d0gt4m"
+		}
+	},
+	"consuming_speed+2%": {
+		"title": "+2% Consuming Speed",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "cooked_porkchop"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:consuming_speed",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "onp5v6u17gbrnq72"
+		}
+	},
+	"ranged_damage+3%": {
+		"title": "+3% Ranged Damage",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "arrow"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:ranged_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "tijqs0r6at748f4g"
+		}
+	},
+	"projectile_speed+5%": {
+		"title": "+5% Projectile Speed",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "wind_charge"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attribute:bow_projectile_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attribute:crossbow_projectile_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "zlp7cc2mpxa6z7um"
+		}
+	},
+	"vampire_start": {
+		"title": "Start on the Vampire Path",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "ghast_tear"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"cost": 1,
+		"metadata": {
+			"icon": "gero9vqwj7a4it0i"
+		}
+	},
+	"tank_start": {
+		"title": "Start on the Tank Path",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "chainmail_chestplate"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "movement_speed",
+					"value": -0.2,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attribute:melee_damage",
+					"value": -0.25,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"cost": 1,
+		"metadata": {
+			"icon": "eznzfqbwa1bkd77u"
+		}
+	},
+	"archer_start": {
+		"title": "Start on the Archer Path",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:movement_speed",
+					"value": 0.15,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:melee_damage",
+					"value": -0.50,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"cost": 1,
+		"metadata": {
+			"icon": "jiharh247nn761ns"
+		}
+	},
+	"berserker_start": {
+		"title": "Start on the Berserker Path",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "wooden_sword"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:ranged_damage",
+					"value": -0.25,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"cost": 1,
+		"metadata": {
+			"icon": "puiedbcvyw9e4mce"
+		}
+	},
+	"keystone_full_tank_start": {
+		"title": "Keystone Hyper Tank Path",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "netherite_chestplate"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "give @s minecraft:totem_of_undying"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "max_health",
+					"value": 6,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:resistance",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:melee_damage",
+					"value": -0.25,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:ranged_damage",
+					"value": -0.25,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"cost": 4,
+		"metadata": {
+			"icon": "qa8gktlrsfxg5g87"
+		}
+	},
+	"keystone_mix_tank_start": {
+		"title": "Keystone Tank Mix Path",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "leather_chestplate"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:resistance",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:ranged_damage",
+					"value": -0.15,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"cost": 4,
+		"metadata": {
+			"icon": "om9gksimmhwsbhwd"
+		}
+	}
+}
