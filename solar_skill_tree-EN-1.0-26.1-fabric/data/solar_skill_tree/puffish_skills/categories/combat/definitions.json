@@ -243,7 +243,7 @@
 				"data": {
 					"attribute": "puffish_attributes:fortune",
 					"value": 0.25,
-					"operation": "additive"
+					"operation": "addition"
 				}
 			}
 		],
@@ -366,9 +366,9 @@
 	"healing+2%": {
 		"title": "+2% Healing",
 		"icon": {
-			"type": "item",
+			"type": "effect",
 			"data": {
-				"item": "healing_potion"
+				"effect": "regeneration"
 			}
 		},
 		"frame": {
@@ -521,7 +521,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_attribute:bow_projectile_speed",
+					"attribute": "puffish_attributes:bow_projectile_speed",
 					"value": 0.05,
 					"operation": "multiply_total"
 				}
@@ -529,7 +529,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_attribute:crossbow_projectile_speed",
+					"attribute": "puffish_attributes:crossbow_projectile_speed",
 					"value": 0.05,
 					"operation": "multiply_total"
 				}
@@ -584,7 +584,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_attribute:melee_damage",
+					"attribute": "puffish_attributes:melee_damage",
 					"value": -0.25,
 					"operation": "multiply_total"
 				}
@@ -613,7 +613,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_attributes:movement_speed",
+					"attribute": "movement_speed",
 					"value": 0.15,
 					"operation": "multiply_total"
 				}
