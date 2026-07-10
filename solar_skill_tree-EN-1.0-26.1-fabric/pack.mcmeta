@@ -1,7 +1,7 @@
 {
 	"pack": {
-		"pack_format": 8,
-		"supported_formats": [0, 999],
-		"description": "I don't like a lot of the other skill trees(kindly). So I made my own."
+		"description": "I don't like a lot of the other skill trees(kindly). So I made my own.",
+		"min_format": 88,
+    	"max_format": 88
 	}
 }
