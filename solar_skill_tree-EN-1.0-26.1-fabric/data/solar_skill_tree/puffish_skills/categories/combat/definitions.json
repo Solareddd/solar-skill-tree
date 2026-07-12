@@ -554,6 +554,7 @@
 			}
 		},
 		"cost": 1,
+		"description":"Fear the light? Drain the life right out of your enemies, for you will need it.",
 		"metadata": {
 			"icon": "gero9vqwj7a4it0i"
 		}
@@ -591,6 +592,7 @@
 			}
 		],
 		"cost": 1,
+		"description":"Start out by becoming a tank and shrugging off attacks others would be flattened by.\nReduce movement speed by 20%.\nReduce melee damage by 25%.",
 		"metadata": {
 			"icon": "eznzfqbwa1bkd77u"
 		}
@@ -628,6 +630,7 @@
 			}
 		],
 		"cost": 1,
+		"description":"Begin on the journey to be greatest archer in the world.\nMovement speed increased by 15%.\nReduce melee damage by 50%.",
 		"metadata": {
 			"icon": "jiharh247nn761ns"
 		}
@@ -657,6 +660,7 @@
 			}
 		],
 		"cost": 1,
+		"description":"Start on the berserker journey, improving melee damage along the way.\nReduce ranged damage by 25%.",
 		"metadata": {
 			"icon": "puiedbcvyw9e4mce"
 		}
@@ -716,6 +720,7 @@
 			}
 		],
 		"cost": 4,
+		"description":"Begin on the path of becoming a complete tank. At a cost.\nGain a totem of undying.\nGain 3 hearts.\nGain +5% resistance.\nReduce melee and ranged damage by 25%.",
 		"metadata": {
 			"icon": "qa8gktlrsfxg5g87"
 		}
@@ -761,8 +766,265 @@
 			}
 		],
 		"cost": 4,
+		"description":"Build upon the foundataion upon being a tank but prefer to deal just a tad bit more damage.`",
 		"metadata": {
 			"icon": "om9gksimmhwsbhwd"
 		}
+	},
+	"keystone_pure_vampire_start":{
+		"title": "Keystone Pure Vampire Start",
+		"icon":{
+			"type":"effect",
+			"data":{
+				"effect":"poison"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "max_health",
+					"value": -10,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:life_steal",
+					"value": 0.10,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:healing",
+					"value": 0.10,
+					"operation": "multiply_base"
+				}
+			}
+
+		],
+		"cost":"4",
+		"description":"Immerse yourself in the vampire identity, yet you have a long way to go.\nLose 5 hearts of max health.\nGain 10% lifesteal\nGain 10% healing"
+
+	},
+	"keystone_magic_vampire_start":{
+		"title": "Keystone Magic Vampire Start",
+		"icon":{
+			"type":"effect",
+			"data":{
+				"effect":"wither"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:resistance",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:life_steal",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:magic_damage",
+					"value": 0.50,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:melee_damage",
+					"value": -4,
+					"operation": "addition"
+				}
+			}
+		],
+		"cost":"4",
+		"description":"Improve the mage within you. All vampires know magic right?\n Reduce damage taken by 1 damage\nIncrease life steal by 2%.\nIncrease magic damage dealt by 50%.\nReduce melee damage dealt by 4 damage."
+	},
+	"keystone_pure_archer_start":{
+		"title":"Keystone Pure Archer Start",
+		"icon":{
+			"type":"item",
+			"data":{
+				"item":"bundle"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:ranged_damage",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "max_health",
+					"value": -2,
+					"operation": "addition"
+				}
+			}
+		],
+		"cost":"4",
+		"description":"Committing to making your fights from a distance. Excellent.\nImproves ranged damage by +1.\nReduces max health by 1."
+	},
+	"keystone_fewer_arrows_start":{
+		"title":"Keystone Fewer Arrows Start",
+		"icon":{
+			"type":"item",
+			"data":{
+				"item":"item_frame"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:ranged_damage",
+					"value": 0.10,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:melee_damage",
+					"value": 0.10,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"cost":"4",
+		"description":"Mixing your damage output can't be bad right? Diversification is never bad in combat.\nImproves ranged damage by 10%.\nImproves melee damage by 10%."
+
+	},
+	"keystone_pure_berserker_start":{
+		"title":"Keystone Pure Berserker Start",
+		"icon":{
+			"type":"item",
+			"data":{
+				"item":"shield"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:ranged_damage",
+					"value": -0.25,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:melee_damage",
+					"value": 0.25,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "movement_speed",
+					"value": 0.25,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"cost":"4",
+		"description":"You really love running at enemies don't you? Well. Go run at them. Not like you have much of a choice anymore.\nReduces ranged damage by 25%.\nIncreases melee damage by 25%.\nIncreases movement speed by 25%."
+
+	},
+	"keystone_lumberjack_start":{
+		"title":"Keystone Lumberjack Start",
+		"icon":{
+			"type":"item",
+			"data":{
+				"item":"wooden_axe"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:axe_speed",
+					"value": 0.10,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:axe_damage",
+					"value": 0.35,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "movement_speed",
+					"value": -0.15,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"cost":"4",
+		"description":"Right. Well the flannel is right over there.\nImproves axe mining speed by 10%.\nImproves axe damage by 35%.\nDecreases movement speed by 15%."
+
 	}
+
 }
