@@ -540,7 +540,10 @@
 		}
 	},
 	"vampire_start": {
-		"title": "Start on the Vampire Path",
+		"title":{
+			"text":"Start on the Vampire path",
+			"color": "gold"
+		},
 		"icon": {
 			"type": "item",
 			"data": {
@@ -554,13 +557,19 @@
 			}
 		},
 		"cost": 1,
-		"description":"Fear the light? Drain the life right out of your enemies, for you will need it.",
+		"description":{
+			"text": "Fear the light? Drain the life right out of your enemies, for you will need it should you continue on this path.", 
+			"color":"aqua"
+		},
 		"metadata": {
 			"icon": "gero9vqwj7a4it0i"
 		}
 	},
 	"tank_start": {
-		"title": "Start on the Tank Path",
+		"title":{
+			"text":"Start on the Tank path",
+			"color": "gold"
+		},
 		"icon": {
 			"type": "item",
 			"data": {
@@ -592,13 +601,33 @@
 			}
 		],
 		"cost": 1,
-		"description":"Start out by becoming a tank and shrugging off attacks others would be flattened by.\nReduce movement speed by 20%.\nReduce melee damage by 25%.",
+		"description":{
+			"text": "Start out on the journey to be the tankiest warrior in the world.\n", 
+			"color":"aqua",
+
+			"extra":[
+				{
+					"text": "Decreases movement speed by 20%.\n", 
+					"color":"red"
+				},
+				{
+					"text": "Decreases melee damage by 25%", 
+					"color": "red"
+				}
+			]
+
+
+
+		},
 		"metadata": {
 			"icon": "eznzfqbwa1bkd77u"
 		}
 	},
 	"archer_start": {
-		"title": "Start on the Archer Path",
+		"title":{
+			"text":"Start on the Archer path",
+			"color": "gold"
+		},
 		"icon": {
 			"type": "item",
 			"data": {
@@ -630,13 +659,33 @@
 			}
 		],
 		"cost": 1,
-		"description":"Begin on the journey to be greatest archer in the world.\nMovement speed increased by 15%.\nReduce melee damage by 50%.",
+		"description":{
+			"text": "Begin on the journey to be the greatest archer in the world.\n", 
+			"color":"aqua",
+
+			"extra":[
+				{
+					"text": "Increases movement speed by 15%.\n", 
+					"color":"green"
+				},
+				{
+					"text": "Decreases melee damage by 50%", 
+					"color": "red"
+				}
+			]
+
+
+
+		},
 		"metadata": {
 			"icon": "jiharh247nn761ns"
 		}
 	},
 	"berserker_start": {
-		"title": "Start on the Berserker Path",
+		"title":{
+			"text":"Start on the Berserker path",
+			"color": "gold"
+		},
 		"icon": {
 			"type": "item",
 			"data": {
@@ -660,13 +709,27 @@
 			}
 		],
 		"cost": 1,
-		"description":"Start on the berserker journey, improving melee damage along the way.\nReduce ranged damage by 25%.",
+
+		"description":{
+			"text": "Start on the berserker journey, improving melee damage along the way\n", 
+			"color":"aqua",
+
+			"extra":[
+				{
+					"text": "Decreases range damage by 25%", 
+					"color": "red"
+				}
+			]
+		},
 		"metadata": {
 			"icon": "puiedbcvyw9e4mce"
 		}
 	},
 	"keystone_full_tank_start": {
-		"title": "Keystone Hyper Tank Path",
+		"title":{
+			"text":"Keystone Full Tank Start",
+			"color": "gold"
+		},
 		"icon": {
 			"type": "item",
 			"data": {
@@ -720,13 +783,41 @@
 			}
 		],
 		"cost": 4,
-		"description":"Begin on the path of becoming a complete tank. At a cost.\nGain a totem of undying.\nGain 3 hearts.\nGain +5% resistance.\nReduce melee and ranged damage by 25%.",
+		"description":{
+			"text": "Begin on the path of becoming a complete tank. At a cost.\n", 
+			"color":"aqua",
+
+			"extra":[
+				{
+					"text":"Gain a totem of undying.\n",
+					"color":"yellow"
+				},
+				{
+					"text": "Increases max health by 3 hearts.\n", 
+					"color":"green"
+				},
+				{
+					"text": "Increases resistance by 5%.\n", 
+					"color": "green"
+				},
+				{
+					"text": "Decreased melee and ranged damage by 25%.", 
+					"color": "red"
+				}
+			]
+
+
+
+		},
 		"metadata": {
 			"icon": "qa8gktlrsfxg5g87"
 		}
 	},
 	"keystone_mix_tank_start": {
-		"title": "Keystone Tank Mix Path",
+		"title":{
+			"text":"Keystone Mix Tank Start",
+			"color": "gold"
+		},
 		"icon": {
 			"type": "item",
 			"data": {
@@ -766,13 +857,37 @@
 			}
 		],
 		"cost": 4,
-		"description":"Build upon the foundataion upon being a tank but prefer to deal just a tad bit more damage.`",
+		"description":{
+			"text": "Build upon the founddation upon being a tank but prefer to do a tad bit more damage up and close.\n", 
+			"color":"aqua",
+
+			"extra":[
+				{
+					"text": "Increases max health by 1 heart.\n", 
+					"color":"green"
+				},
+				{
+					"text": "Increases resistance by 2%.\n", 
+					"color": "green"
+				},
+				{
+					"text": "Decreases ranged damage by 15%.", 
+					"color": "red"
+				}
+			]
+
+
+
+		},
 		"metadata": {
 			"icon": "om9gksimmhwsbhwd"
 		}
 	},
 	"keystone_pure_vampire_start":{
-		"title": "Keystone Pure Vampire Start",
+		"title":{
+			"text":"Keystone Pure Vampire Start",
+			"color": "gold"
+		},
 		"icon":{
 			"type":"effect",
 			"data":{
@@ -813,11 +928,35 @@
 
 		],
 		"cost":"4",
-		"description":"Immerse yourself in the vampire identity, yet you have a long way to go.\nLose 5 hearts of max health.\nGain 10% lifesteal\nGain 10% healing"
+		"description":{
+			"text": "Immerse yourself in the vampire identity, yet you have a long way to go.\n", 
+			"color":"aqua",
+
+			"extra":[
+				{
+					"text": "Increases lifesteal by 10%.\n", 
+					"color":"green"
+				},
+				{
+					"text": "Increases healing by 10%.\n", 
+					"color": "green"
+				},
+				{
+					"text": "Decreases max health by 5 hearts.", 
+					"color": "red"
+				}
+			]
+
+
+
+		}
 
 	},
 	"keystone_magic_vampire_start":{
-		"title": "Keystone Magic Vampire Start",
+		"title":{
+			"text":"Keystone Magic Vampire Start",
+			"color": "gold"
+		},
 		"icon":{
 			"type":"effect",
 			"data":{
@@ -865,10 +1004,38 @@
 			}
 		],
 		"cost":"4",
-		"description":"Improve the mage within you. All vampires know magic right?\n Reduce damage taken by 1 damage\nIncrease life steal by 2%.\nIncrease magic damage dealt by 50%.\nReduce melee damage dealt by 4 damage."
+		"description":{
+			"text": "Improve the mage within you. All vampires know magic right?\n", 
+			"color":"aqua",
+
+			"extra":[
+				{
+					"text": "Decreases all damage taken by 1.\n", 
+					"color":"green"
+				},
+				{
+					"text": "Increases life steal by 2%.\n", 
+					"color": "green"
+				},
+				{
+					"text": "Increases magic damage dealt by 50%.\n", 
+					"color": "green"
+				},
+				{
+					"text": "Decreases all melee damage dealt by 4.",
+					"color": "red"
+				}
+			]
+
+
+
+		}
 	},
 	"keystone_pure_archer_start":{
-		"title":"Keystone Pure Archer Start",
+		"title":{
+			"text":"Keystone Pure Archer Start",
+			"color": "gold"
+		},
 		"icon":{
 			"type":"item",
 			"data":{
@@ -900,10 +1067,30 @@
 			}
 		],
 		"cost":"4",
-		"description":"Committing to making your fights from a distance. Excellent.\nImproves ranged damage by +1.\nReduces max health by 1."
+		"description":{
+			"text": "Committing to making your fights from a distance. Excellent.\n", 
+			"color":"aqua",
+
+			"extra":[
+				{
+					"text": "Increases ranged damage by +1.\n", 
+					"color":"green"
+				},
+				{
+					"text": "Decreases max health by 1 heart.", 
+					"color": "red"
+				}
+			]
+
+
+
+		}
 	},
 	"keystone_fewer_arrows_start":{
-		"title":"Keystone Fewer Arrows Start",
+		"title":{
+			"text":"Keystone Fewer Arrows Start",
+			"color": "gold"
+		},
 		"icon":{
 			"type":"item",
 			"data":{
@@ -935,11 +1122,31 @@
 			}
 		],
 		"cost":"4",
-		"description":"Mixing your damage output can't be bad right? Diversification is never bad in combat.\nImproves ranged damage by 10%.\nImproves melee damage by 10%."
+		"description":{
+			"text": "Mixing your damage output can't be bad right? Diversification is never bad in combat.\n", 
+			"color":"aqua",
+
+			"extra":[
+				{
+					"text": "Increases ranged damage by 10%.\n", 
+					"color":"green"
+				},
+				{
+					"text": "Increases melee damage by 10%.\n", 
+					"color": "green"
+				}
+			]
+
+
+
+		}
 
 	},
 	"keystone_pure_berserker_start":{
-		"title":"Keystone Pure Berserker Start",
+		"title":{
+			"text":"Keystone Pure Berserker Start",
+			"color": "gold"
+		},
 		"icon":{
 			"type":"item",
 			"data":{
@@ -979,11 +1186,34 @@
 			}
 		],
 		"cost":"4",
-		"description":"You really love running at enemies don't you? Well. Go run at them. Not like you have much of a choice anymore.\nReduces ranged damage by 25%.\nIncreases melee damage by 25%.\nIncreases movement speed by 25%."
+		"description":{
+			"text": "You really love running at enemies don't you? Well. Go run at them. Not like you have much of a choice anymore.\n",
+			"color":"aqua",
 
+			"extra":[
+				{
+					"text": "Increases melee damage by 25%.\n", 
+					"color":"green"
+				},
+				{
+					"text": "Increases movement speed by 25%.\n", 
+					"color": "green"
+				},
+				{
+					"text": "Decreases ranged damage by 25%.", 
+					"color": "red"
+				}
+			]
+
+
+
+		}
 	},
 	"keystone_lumberjack_start":{
-		"title":"Keystone Lumberjack Start",
+		"title":{
+			"text":"Keystone Lumberjack Start",
+			"color": "gold"
+		},
 		"icon":{
 			"type":"item",
 			"data":{
@@ -1023,7 +1253,28 @@
 			}
 		],
 		"cost":"4",
-		"description":"Right. Well the flannel is right over there.\nImproves axe mining speed by 10%.\nImproves axe damage by 35%.\nDecreases movement speed by 15%."
+		"description":{
+			"text": "Right. Well the flannel is right over there.\n", 
+			"color":"aqua",
+
+			"extra":[
+				{
+					"text": "Increases axe mining speed by 10%.\n", 
+					"color":"green"
+				},
+				{
+					"text": "Increases axe damage by 35%.\n", 
+					"color": "green"
+				},
+				{
+					"text": "Decreases movement speed by 15%", 
+					"color": "red"
+				}
+			]
+
+
+
+		}
 
 	}
 
